@@ -83,3 +83,23 @@ myDict = {'kia': 'awesome', 'america': 'f yeah'}
 print('kia' in myDict) #True
 del myDict['kia']
 print('kia' in myDict) #False
+
+
+#Exceptions!
+# Can use try except blocks
+
+
+#Function Declarations!
+
+def square(n):
+  return n**2
+
+print(square(n))
+
+def squareroot(n):
+  root = n/2 # just initial guess
+  for k in range(20):
+    root = (1/2)*(root + n/root)
+
+  return root
+
