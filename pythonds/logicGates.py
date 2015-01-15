@@ -1,3 +1,5 @@
+#Practice in inheritance
+
 class LogicGate:
   def __init__(self, n):
     self.label = n
