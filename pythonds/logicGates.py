@@ -128,3 +128,6 @@ def main():
    print(g4.getOutput())
 
 main()
+
+
+#Logic Gates
