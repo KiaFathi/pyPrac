@@ -3,6 +3,7 @@ import cv2
 
 canvas = np.zeros((300, 300, 3), dtype = "uint8")
 
+# Generates three 25 circles of random radius, color and center
 for i in xrange(0, 25):
   radius = np.random.randint(5, high = 200)
   color = np.random.randint(0, high = 256, size = (3,)).tolist()
